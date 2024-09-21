@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vignesh Binding Works</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo" data-aos="fade-right">
+        <img src="logo.png" alt="Vignesh Binding Works Logo">
+    </div>
+    <h1 data-aos="fade-down">Vignesh Binding Works</h1>
+    
+    <!-- Contact Icons -->
+    <div class="contact-icons" data-aos="fade-up">
+        <a href="https://www.instagram.com/yourusername" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/yourusername" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
+        <a href="mailto:ezhuthipazhagu@gmail.com" class="icon-link"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+916379227882" class="icon-link"><i class="fas fa-phone-alt"></i></a>
+    </div>
+</header>
+
+<nav data-aos="fade-in">
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="hero-section" id="home" data-aos="zoom-in">
+    <img src="hero-image.jpg" alt="Hero Image" class="full-width-image">
+    <div class="hero-content">
+        <h1 data-aos="fade-up">Welcome to Our World of Notebooks</h1>
+        <p data-aos="fade-up" data-aos-delay="200">High-quality, eco-friendly, and affordable notebooks for everyone.</p>
+        <a href="#about" class="cta-button" data-aos="fade-up" data-aos-delay="400">Shop Now</a>
+    </div>
+</div>
+
+<section class="about-section" id="about" data-aos="fade-right">
+    <h2>About Us</h2>
+    <p>We are a leading manufacturer of notebooks with over 20 years of experience. Our notebooks are crafted with precision and care, ensuring top-notch quality for students, professionals, and creatives alike.</p>
+</section>
+
+<section class="products-section" id="products" data-aos="fade-up">
+    <div class="product" data-aos="flip-left">
+        <img src="notebook1.jpg" alt="Notebook 1">
+        <h3>Classic Notebooks</h3>
+        <p>Our best-selling notebooks with a range of colors and sizes.</p>
+    </div>
+    <div class="product" data-aos="flip-left" data-aos-delay="100">
+        <img src="notebook2.jpg" alt="Notebook 2">
+        <h3>Eco-friendly Series</h3>
+        <p>Notebooks made from 100% recycled paper and eco-friendly materials.</p>
+    </div>
+    <div class="product" data-aos="flip-left" data-aos-delay="200">
+        <img src="notebook3.jpg" alt="Notebook 3">
+        <h3>Customizable Notebooks</h3>
+        <p>Design your own cover and choose the features you want.</p>
+    </div>
+</section>
+
+<section class="testimonial-section" id="testimonials" data-aos="fade-up">
+    <h2>What Our Customers Say</h2>
+    <p class="testimonial" data-aos="fade-left">"The best notebooks I've ever used! The quality is top-notch, and I love that they are eco-friendly." - Jane D.</p>
+    <p class="testimonial" data-aos="fade-left" data-aos-delay="200">"Their customizable options are perfect for my business. Highly recommend!" - John M.</p>
+</section>
+
+<section class="contact-section" id="contact" data-aos="zoom-in">
+    <h2>Contact Us</h2>
+    <p>Email: ezhuthipazhagu@gmail.com | Phone: +91 6379227882</p>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <!-- Quick Links -->
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i> No. 40, Pillayar Koil Street, Veeraraghavapuram, Kaduvetti, Chennai - 600077</p>
+            <p><i class="fas fa-phone-alt"></i> +91 6379227882</p>
+            <p><i class="fas fa-envelope"></i> ezhuthipazhagu@gmail.com</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="footer-column">
+            <h3>Get in Touch</h3>
+            <form action="submit_form.php" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:ezhuthipazhagu@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+916379227882"><i class="fas fa-phone-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Vignesh Binding Works. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- AOS Library -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  // Initialize AOS
+  AOS.init();
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
